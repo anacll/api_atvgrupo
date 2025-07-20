@@ -1,5 +1,5 @@
 from flask import Blueprint
-from controllers import comentario_controller
+from ..controllers.comentario_controller import comentario_controller
 
 comentario_bp = Blueprint("comentario_bp", __name__)
 

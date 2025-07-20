@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from models.message import Mensagem
+from ..models.message import Mensagem
 from app import db
 
 def criar_mensagem():

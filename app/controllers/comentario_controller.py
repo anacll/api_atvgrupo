@@ -1,7 +1,7 @@
 from flask import request, jsonify
 from app import db
-from models.comentario import Comentario
-from models.message import Mensagem
+from ..models.comentario import Comentario
+from ..models.message import Mensagem
 
 def criar_comentario():
     data = request.get_json()

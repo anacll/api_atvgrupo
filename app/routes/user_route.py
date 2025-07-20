@@ -1,8 +1,8 @@
 from flask import Blueprint
-from controllers.user_controller import criar_usuario
-from controllers.user_controller import listar_usuarios
-from controllers.user_controller import atualizar_usuario
-from controllers.user_controller import deletar_usuario
+from ..controllers.user_controller import criar_usuario
+from ..controllers.user_controller import listar_usuarios
+from ..controllers.user_controller import atualizar_usuario
+from ..controllers.user_controller import deletar_usuario
 
 user_bp = Blueprint('usuario', __name__)
 @user_bp.route('/', methods=['POST'])
